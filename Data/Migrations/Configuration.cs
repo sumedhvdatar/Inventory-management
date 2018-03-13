@@ -1,18 +1,20 @@
-using System.Data.Entity.Migrations;
-using System.Linq;
-using Core.Domains;
-using Core.Helpers.Security;
-
 namespace Data.Migrations
 {
-    internal sealed class Configuration : DbMigrationsConfiguration<AppContext>
+    using System;
+    using System.Data.Entity;
+    using System.Data.Entity.Migrations;
+    using System.Linq;
+    using Core.Domains;
+    using Core.Helpers.Security;
+
+    internal sealed class Configuration : DbMigrationsConfiguration<Data.AppContext>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
         }
 
-        protected override void Seed(AppContext context)
+        protected override void Seed(Data.AppContext context)
         {
             var users = context.Set<Account>();
 
@@ -30,6 +32,7 @@ namespace Data.Migrations
             };
             users.AddOrUpdate(user);
             context.SaveChanges();
+
         }
     }
 }

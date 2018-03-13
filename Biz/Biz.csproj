@@ -46,9 +46,11 @@
     <Compile Include="Infrastructure\ServiceModule.cs" />
     <Compile Include="Interfaces\IAccountService.cs" />
     <Compile Include="Interfaces\IFacilityService.cs" />
+    <Compile Include="Interfaces\IUserService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\AccountService.cs" />
     <Compile Include="Services\FacilityService.cs" />
+    <Compile Include="Services\UserService.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Core\Core.csproj">

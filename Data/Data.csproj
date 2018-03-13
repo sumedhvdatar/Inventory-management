@@ -52,6 +52,7 @@
     <Compile Include="Mappings\AccountMap.cs" />
     <Compile Include="Mappings\ErrorLogMap.cs" />
     <Compile Include="Mappings\FacilityMap.cs" />
+    <Compile Include="Mappings\UserMap.cs" />
     <Compile Include="Migrations\201609072146481_InitialCreate.cs" />
     <Compile Include="Migrations\201609072146481_InitialCreate.Designer.cs">
       <DependentUpon>201609072146481_InitialCreate.cs</DependentUpon>
@@ -59,6 +60,26 @@
     <Compile Include="Migrations\201802170324543_AddedFacilityTable.cs" />
     <Compile Include="Migrations\201802170324543_AddedFacilityTable.Designer.cs">
       <DependentUpon>201802170324543_AddedFacilityTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201803122131288_March12.cs" />
+    <Compile Include="Migrations\201803122131288_March12.Designer.cs">
+      <DependentUpon>201803122131288_March12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201803122147086_changingDBName.cs" />
+    <Compile Include="Migrations\201803122147086_changingDBName.Designer.cs">
+      <DependentUpon>201803122147086_changingDBName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201803122303402_exception.cs" />
+    <Compile Include="Migrations\201803122303402_exception.Designer.cs">
+      <DependentUpon>201803122303402_exception.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201803130001404_test.cs" />
+    <Compile Include="Migrations\201803130001404_test.Designer.cs">
+      <DependentUpon>201803130001404_test.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201803130006273_test1.cs" />
+    <Compile Include="Migrations\201803130006273_test1.Designer.cs">
+      <DependentUpon>201803130006273_test1.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -70,6 +91,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201802170324543_AddedFacilityTable.resx">
       <DependentUpon>201802170324543_AddedFacilityTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201803122131288_March12.resx">
+      <DependentUpon>201803122131288_March12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201803122147086_changingDBName.resx">
+      <DependentUpon>201803122147086_changingDBName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201803122303402_exception.resx">
+      <DependentUpon>201803122303402_exception.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201803130001404_test.resx">
+      <DependentUpon>201803130001404_test.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201803130006273_test1.resx">
+      <DependentUpon>201803130006273_test1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

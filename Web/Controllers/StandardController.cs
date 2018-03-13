@@ -1,4 +1,5 @@
-﻿using System.Data.Entity.Infrastructure;
+﻿using System;
+using System.Data.Entity.Infrastructure;
 using System.Net;
 using System.Web.Mvc;
 using Biz.Interfaces;
@@ -24,6 +25,7 @@ namespace Web.Controllers
         }
 
         #endregion
+
 
         // GET: Student
         public ViewResult Index(string sortOrder, string currentFilter, string searchString, int? page)
